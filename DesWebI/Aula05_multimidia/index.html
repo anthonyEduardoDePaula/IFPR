@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimidia</title>
+</head>
+<body>
+    <h1>Multimidia</h1>
+    <p>São diversos tipos de midia, tais como: 
+        <ul>
+            <li>Sites</li>
+            <li>Audio</li>
+            <li>Video</li>
+            <li>Imagens</li>
+            <li>Dentre Outros</li>
+        </ul>
+    </p>
+    <h2>Incorporando Multimidias a um site</h2>
+    <h3>Tag Iframe</h3>
+    <p>Com essa tag é possível incorporar sites, videos e audios.</p>
+    <h4>Incorporar sites</h4>
+    <iframe src="https://www.operarioferroviario.com.br/" width="100%"  height="350px"></iframe>
+    <h4>Incorporar audio</h4>
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/907962241&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-863668747" title="Death Dealers Anonymous" target="_blank" style="color: #cccccc; text-decoration: none;">Death Dealers Anonymous</a> · <a href="https://soundcloud.com/user-863668747/iron-maiden" title="Iron Maiden" target="_blank" style="color: #cccccc; text-decoration: none;">Iron Maiden</a></div>
+    <h4>Incorporando videos</h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MTwULGuzr1M?si=gjpf-jSHunGN0FHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Tag video</h2>
+    <p>Com a tag video é possível incorporar videos diretamente no arquivo de video 
+        <video poster="midias/video/Bike.jpg" controls>
+            <source src="midias/video/_Bike.mp4" type="video/mp4">
+            <source src="midias/video/Bike.webm" type="video/webm">
+            <source src="midias/video/Bike.ogv" type="video/ogv">
+        </video>
+    </p>
+    <h2>Tag de Audio</h2>
+    <audio preload="metadata" controls>
+        <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+        <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav"> 
+    </audio>   
+    <h2>Tag picture</h2>
+    <picture>
+        <source media="(max-width:500px)" srcset="midias/img/bike_110.jpg">
+        <source media="(max-width:700px)" srcset="midias/img/bike_320.jpg">
+        <source media="(max-width:900px)" srcset="midias/img/bike_640.jpg">
+        <img src="midias/img/bike_full.jpg" alt="">
+    </picture>
+</body>
+</html>
